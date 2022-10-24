@@ -1,0 +1,43 @@
+html,
+body {
+  margin: auto;
+  width: 900px;
+  font-family: 'Roboto', helvetica, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  background-color: #FFF;
+}
+
+header{
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  font-size:24pt;
+  margin: 10px;
+}
+a {
+  font-size:24pt;
+  margin: 10px;
+}
+
+#doors {
+  display: flex;  
+}
+
+button {
+  font-size: 22pt;
+  margin: 10px;
+}
+
+.door {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62pt;
+  margin: 60px;
+}
